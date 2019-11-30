@@ -23,6 +23,7 @@
     'license': 'Other OSI approved licence',
     'category': 'generico',
     'summary': 'Customization for Potenciar',
+    "development_status": "Mature",
     'author': 'jeo Software',
     'depends': [
         # basic applications
