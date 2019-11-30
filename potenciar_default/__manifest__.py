@@ -31,7 +31,7 @@
         'purchase',
 
         # minimum modules for argentinian localizacion + utilities + fixes
-        # 'standard_depends',
+        'standard_depends_ce',
 
         # utilitarios adicionales
     ],
@@ -48,13 +48,9 @@
     # Here begins docker-odoo-environment manifest
     # --------------------------------------------
 
-    # if Enterprise it installs in a different directory than community
-    'Enterprise': False,
-
     # port where odoo starts serving pages
     'port': '8069',
 
-    # example repos version 1
     'repos': [
         {'usr': 'jobiols', 'repo': 'cl-potenciar', 'branch': '11.0'},
         {'usr': 'jobiols', 'repo': 'odoo-addons', 'branch': '11.0'},
