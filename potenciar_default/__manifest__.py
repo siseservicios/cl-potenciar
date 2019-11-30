@@ -34,6 +34,7 @@
         'standard_depends_ce',
 
         # utilitarios adicionales
+        'backend_theme_v11',
     ],
     'data': [
     ],
