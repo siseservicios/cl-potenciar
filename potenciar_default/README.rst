@@ -7,12 +7,12 @@ Potenciar
    !! changes will be overwritten.                   !!
    !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-.. |badge1| image:: https://img.shields.io/badge/maturity-Beta-yellow.png
+.. |badge1| image:: https://img.shields.io/badge/maturity-Mature-brightgreen.png
     :target: https://odoo-community.org/page/development-status
-    :alt: Beta
-.. |badge2| image:: https://img.shields.io/badge/github-jobiols%2Fcl--scaffolding-lightgray.png?logo=github
-    :target: https://github.com/jobiols/cl-scaffolding/tree/11.0/potenciar_default
-    :alt: jobiols/cl-scaffolding
+    :alt: Mature
+.. |badge2| image:: https://img.shields.io/badge/github-jobiols%2Fcl--potenciar-lightgray.png?logo=github
+    :target: https://github.com/jobiols/cl-potenciar/tree/11.0/potenciar_default
+    :alt: jobiols/cl-potenciar
 
 |badge1| |badge2| 
 
@@ -26,10 +26,10 @@ Customizacion para Potenciar
 Bug Tracker
 ===========
 
-Bugs are tracked on `GitHub Issues <https://github.com/jobiols/cl-scaffolding/issues>`_.
+Bugs are tracked on `GitHub Issues <https://github.com/jobiols/cl-potenciar/issues>`_.
 In case of trouble, please check there if your issue has already been reported.
 If you spotted it first, help us smashing it by providing a detailed and welcomed
-`feedback <https://github.com/jobiols/cl-scaffolding/issues/new?body=module:%20potenciar_default%0Aversion:%2011.0%0A%0A**Steps%20to%20reproduce**%0A-%20...%0A%0A**Current%20behavior**%0A%0A**Expected%20behavior**>`_.
+`feedback <https://github.com/jobiols/cl-potenciar/issues/new?body=module:%20potenciar_default%0Aversion:%2011.0%0A%0A**Steps%20to%20reproduce**%0A-%20...%0A%0A**Current%20behavior**%0A%0A**Expected%20behavior**>`_.
 
 Do not contact contributors directly about support or help with technical issues.
 
@@ -49,6 +49,6 @@ Contributors
 Maintainers
 ~~~~~~~~~~~
 
-This module is part of the `jobiols/cl-scaffolding <https://github.com/jobiols/cl-scaffolding/tree/11.0/potenciar_default>`_ project on GitHub.
+This module is part of the `jobiols/cl-potenciar <https://github.com/jobiols/cl-potenciar/tree/11.0/potenciar_default>`_ project on GitHub.
 
 You are welcome to contribute.
