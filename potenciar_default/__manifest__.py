@@ -36,6 +36,7 @@
 
         # utilitarios adicionales
         'backend_theme_v11',
+        'l10n_ar_account_withholding_fix',
     ],
     'data': [
     ],
