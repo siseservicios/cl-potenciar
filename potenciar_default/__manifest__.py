@@ -82,6 +82,7 @@
         'https://github.com/OCA/manufacture.git',
         'https://github.com/OCA/manufacture-reporting.git',
         'https://github.com/OCA/management-system.git',
+		'https://github.com/OCA/reporting-engine oca-reporting-engine',
         'https://github.com/OCA/sale-workflow.git',
         'https://github.com/OCA/stock-logistics-warehouse.git',
         'https://github.com/OCA/stock-logistics-reporting.git',
@@ -93,6 +94,6 @@
         'odoo jobiols/odoo-jeo:11.0',
         'postgres postgres:11.1-alpine',
         'nginx nginx',
-        'aeroo adhoc/aeroo-docs'
+        'aeroo adhoc/aeroo-docs',
     ],
 }
