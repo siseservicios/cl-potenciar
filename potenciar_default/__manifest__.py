@@ -37,6 +37,7 @@
         # utilitarios adicionales
         'backend_theme_v11',
         'l10n_ar_account_withholding_fix',
+        'account_financial_report',
     ],
     'data': [
     ],
@@ -50,7 +51,7 @@
 
     'git-repos': [
         'https://github.com/sebatista/cl-potenciar',
-		
+
 		# JEO
         'https://github.com/jobiols/odoo-addons jeo-odoo-addons',
         'https://github.com/jobiols/odoo-jeo-ce jeo-odoo-jeo-ce',
