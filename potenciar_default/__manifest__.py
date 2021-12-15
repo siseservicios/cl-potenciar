@@ -63,7 +63,6 @@
         'https://github.com/ingadhoc/reporting-engine adhoc-reporting-engine',
         'https://github.com/ingadhoc/aeroo_reports adhoc-aeroo_reports',
         'https://github.com/ingadhoc/sale adhoc-sale',
-        'https://github.com/ingadhoc/odoo-support adhoc-odoo-support',
         'https://github.com/ingadhoc/product adhoc-product',
         'https://github.com/ingadhoc/stock adhoc-stock',
         'https://github.com/ingadhoc/account-invoicing adhoc-account-invoicing',
