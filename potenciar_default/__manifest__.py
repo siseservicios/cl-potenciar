@@ -18,11 +18,11 @@
 #
 # -----------------------------------------------------------------------------
 {
-    'name': 'Potenciar',
-    'version': '11.0.0.0.0',
+    'name': 'Potenciar13',
+    'version': '13.0.0.0.0',
     'license': 'Other OSI approved licence',
     'category': 'generico',
-    'summary': 'Customization for Potenciar',
+    'summary': 'Customization for Potenciar V13',
     "development_status": "Mature",
     'author': 'jeo Software',
     'depends': [
@@ -35,9 +35,7 @@
         'standard_depends_ce',
 
         # utilitarios adicionales
-        'backend_theme_v11',
-        'l10n_ar_account_withholding_fix',
-        'account_financial_report',
+
     ],
     'data': [
     ],
@@ -45,12 +43,11 @@
     ],
     'installable': True,
     'application': True,
-    'auto_install': False,
 
     'env-ver': '2',
 
     'git-repos': [
-        'https://github.com/sebatista/cl-potenciar',
+        'https://github.com/jobiols/cl-potenciar',
 
 		# JEO
         'https://github.com/jobiols/odoo-addons jeo-odoo-addons',
@@ -92,9 +89,8 @@
     ],
 
     'docker-images': [
-        'odoo jobiols/odoo-jeo:11.0',
-        'postgres postgres:11.1-alpine',
+        'odoo jobiols/odoo-jeo:13.0',
+        'postgres postgres:10.1-alpine',
         'nginx nginx',
-        'aeroo adhoc/aeroo-docs',
     ],
 }
