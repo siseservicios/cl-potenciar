@@ -66,7 +66,6 @@
         'https://github.com/ingadhoc/product adhoc-product',
         'https://github.com/ingadhoc/stock adhoc-stock',
         'https://github.com/ingadhoc/account-invoicing adhoc-account-invoicing',
-        'https://github.com/ingadhoc/patches adhoc-patches',
 
 		# OCA
 		'https://github.com/OCA/account-financial-reporting oca-account-financial-reporting',
