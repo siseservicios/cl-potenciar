@@ -50,7 +50,7 @@
     'env-ver': '2',
 
     'git-repos': [
-        'https://github.com/sebatista/cl-potenciar',
+        'git@github.com:jobiols/cl-potenciar.git',
 
 		# JEO
         'https://github.com/jobiols/odoo-addons jeo-odoo-addons',
