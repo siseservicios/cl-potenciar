@@ -1,6 +1,6 @@
 # -----------------------------------------------------------------------------
 #
-#    Copyright (C) 2019  jeo Software  (http://www.jeosoft.com.ar)
+#    Copyright (C) 2021  jeo Software  (http://www.jeosoft.com.ar)
 #    All Rights Reserved.
 #
 #    This program is free software: you can redistribute it and/or modify
@@ -19,7 +19,7 @@
 # -----------------------------------------------------------------------------
 {
     'name': 'Potenciar13',
-    'version': '13.0.0.0.0',
+    'version': '13.0.1.0.0',
     'license': 'Other OSI approved licence',
     'category': 'generico',
     'summary': 'Customization for Potenciar V13',
@@ -53,8 +53,12 @@
         'https://github.com/jobiols/odoo-addons jeo-odoo-addons',
         'https://github.com/jobiols/odoo-jeo-ce jeo-odoo-jeo-ce',
 
+        # REGABY
+        'https://github.com/regaby/odoo-custom regaby-odoo-custom',
+
 		# ADHOC
         'https://github.com/ingadhoc/odoo-argentina adhoc-odoo-argentina',
+        'https://github.com/ingadhoc/odoo-argentina-ce adhoc-odoo-argentina-ce',
         'https://github.com/ingadhoc/argentina-sale adhoc-argentina-sale',
         'https://github.com/ingadhoc/account-financial-tools adhoc-account-financial-tools',
         'https://github.com/ingadhoc/account-payment adhoc-account-payment',
@@ -84,6 +88,9 @@
         'https://github.com/OCA/stock-logistics-reporting.git',
         'https://github.com/OCA/stock-logistics-workflow.git',
         'https://github.com/OCA/queue.git',
+
+        # ODOO MATES
+        'https://github.com/odoomates/odooapps odoomates-odooapps'
     ],
 
     'docker-images': [
