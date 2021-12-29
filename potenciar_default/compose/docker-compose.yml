@@ -53,16 +53,16 @@ services:
       - ${PROJECT_PATH}/backup_dir:/var/odoo/backups/
     links:
       - postgres:db
-    environment:
-      - SERVER_MODE=
+    command:
+      - --db-filter=^%d$$
     labels:
       # router rou-odoo --> Acceso a odoo en puerto 80
-      - traefik.http.routers.rou-odoo.rule=Host(`${SITE_DOMAIN}`)
+      - traefik.http.routers.rou-odoo.rule=Host(`${SITE_DOMAIN1}`) || Host(`${SITE_DOMAIN2}`) || Host(`${SITE_DOMAIN3}`) || Host(`${SITE_DOMAIN4}`)
       - traefik.http.routers.rou-odoo.entrypoints=web
       - traefik.http.routers.rou-odoo.service=srv-odoo-secure
 
       # router rou-chat --> Acceso a /longpolling en puerto 80
-      - traefik.http.routers.rou-chat.rule=Host(`${SITE_DOMAIN}`) && PathPrefix(`/longpolling`)
+      - traefik.http.routers.rou-chat.rule=(Host(`${SITE_DOMAIN1}`) || Host(`${SITE_DOMAIN2}`) || Host(`${SITE_DOMAIN3}`) || Host(`${SITE_DOMAIN4}`)) && PathPrefix(`/longpolling`)
       - traefik.http.routers.rou-chat.entrypoints=web
       - traefik.http.routers.rou-chat.service=srv-chat-secure
 
@@ -78,7 +78,7 @@ services:
       - traefik.http.routers.rou-chat.middlewares=redirect-to-https@docker
 
       # router rou-odoo-secure --> Acceso a odoo en puerto 443
-      - traefik.http.routers.rou-odoo-secure.rule=Host(`${SITE_DOMAIN}`)
+      - traefik.http.routers.rou-odoo-secure.rule=Host(`${SITE_DOMAIN1}`) || Host(`${SITE_DOMAIN2}`)  || Host(`${SITE_DOMAIN3}`) || Host(`${SITE_DOMAIN4}`)
       - traefik.http.routers.rou-odoo-secure.tls=true
       - traefik.http.routers.rou-odoo-secure.tls.certresolver=le
       - traefik.http.routers.rou-odoo-secure.entrypoints=websecure
@@ -88,7 +88,7 @@ services:
       - traefik.http.services.srv-odoo-secure.loadbalancer.server.port=8069
 
       # Router rou-chat-secure --> Acceso a odoo en puerto 443
-      - traefik.http.routers.rou-chat-secure.rule=(Host(`${SITE_DOMAIN}`)) && PathPrefix(`/longpolling`)
+      - traefik.http.routers.rou-chat-secure.rule=(Host(`${SITE_DOMAIN1}`) || Host(`${SITE_DOMAIN2}`) || Host(`${SITE_DOMAIN3}`) || Host(`${SITE_DOMAIN4}`)) && PathPrefix(`/longpolling`)
       - traefik.http.routers.rou-chat-secure.tls=true
       - traefik.http.routers.rou-chat-secure.tls.certresolver=le
       - traefik.http.routers.rou-chat-secure.entrypoints=websecure
