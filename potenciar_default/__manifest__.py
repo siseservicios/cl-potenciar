@@ -93,8 +93,7 @@
 
     'docker-images': [
         'odoo jobiols/odoo-jeo:11.0',
-        'postgres postgres:11.1-alpine',
-        'nginx nginx',
+        'postgres postgres:10.1-alpine',
         'aeroo adhoc/aeroo-docs',
     ],
 }
