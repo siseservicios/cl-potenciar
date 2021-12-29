@@ -54,7 +54,7 @@
 
 		# JEO
         'https://github.com/jobiols/odoo-addons jeo-odoo-addons',
-        'https://github.com/jobiols/odoo-jeo-ce jeo-odoo-jeo-ce',
+        'git@github.com:jobiols/odoo-jeo-ce.git jeo-odoo-jeo-ce',
 
 		# ADHOC
         'https://github.com/ingadhoc/odoo-argentina adhoc-odoo-argentina',
