@@ -50,7 +50,7 @@
     'env-ver': '2',
 
     'git-repos': [
-        'git@github.com:jobiols/cl-potenciar.git',
+        'git@github.com:siseservicios/cl-potenciar.git',
 
 		# JEO
         'https://github.com/jobiols/odoo-addons jeo-odoo-addons',
