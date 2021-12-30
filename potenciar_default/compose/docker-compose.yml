@@ -40,6 +40,7 @@ services:
       - POSTGRES_PASSWORD=odoo
     volumes:
       - ${PROJECT_PATH}/postgresql:/var/lib/postgresql/data
+      - ${PROJECT_PATH}/config/postgresql.conf:/etc/postgresql/postgresql.conf
 
   odoo:
     image: ${ODOO_IMAGE}
