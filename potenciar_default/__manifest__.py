@@ -45,7 +45,12 @@
     'application': True,
 
     'env-ver': '2',
-
+	
+    'config': [
+	'workers = 1',
+	'max_cron_threads = 3'
+    ],
+	
     'git-repos': [
         'git@github.com:siseservicios/cl-potenciar.git',
 
