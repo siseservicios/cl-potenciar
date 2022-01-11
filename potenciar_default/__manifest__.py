@@ -50,8 +50,8 @@
     'env-ver': '2',
 	
     'config': [
-	'workers = 1',
-	'max_cron_threads = 3'
+	'workers = 2',
+	'max_cron_threads = 2'
     ],
 
     'git-repos': [
