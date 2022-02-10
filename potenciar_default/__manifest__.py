@@ -31,9 +31,10 @@
 	'accounting_pdf_reports',
 	'l10n_ar_reports',
 	'l10n_ar_account_withholding',
-	'padron_afip',
 	'account_financial_report',
-	'account_withholding_automatic',
+	'padron_afip',
+	'l10n_ar_export_arba',
+	'l10n_ar_export_sicore',
 	'backend_theme_v13',
 	    
 
