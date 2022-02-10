@@ -27,9 +27,15 @@
     'author': 'jeo Software',
     'depends': [
         # basic applications
-        'sale_management',
         'account_invoicing',
-        'purchase',
+	'accounting_pdf_reports',
+	'l10n_ar_reports',
+	'l10n_ar_account_withholding',
+	'padron_afip',
+	'account_financial_report',
+	'account_withholding_automatic',
+	'backend_theme_v13',
+	    
 
         # minimum modules for argentinian localizacion + utilities + fixes
         'standard_depends_ce',
