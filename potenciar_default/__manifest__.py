@@ -48,7 +48,7 @@
     'auto_install': False,
 
     'env-ver': '2',
-	
+
     'config': [
 	'workers = 2',
 	'max_cron_threads = 2'
@@ -58,7 +58,7 @@
         'git@github.com:siseservicios/cl-potenciar.git',
 
 		# JEO
-        'https://github.com/jobiols/odoo-addons jeo-odoo-addons',
+        'git@github.com:jobiols/odoo-addons.git jeo-odoo-addons',
         'git@github.com:jobiols/odoo-jeo-ce.git jeo-odoo-jeo-ce',
 
 		# ADHOC
