@@ -27,7 +27,6 @@
     'author': 'jeo Software',
     'depends': [
         # basic applications
-        'account_invoicing',
 	'accounting_pdf_reports',
 	'l10n_ar_reports',
 	'l10n_ar_account_withholding',
@@ -36,7 +35,7 @@
 	'l10n_ar_export_arba',
 	'l10n_ar_export_sicore',
 	'backend_theme_v13',
-	    
+
 
         # minimum modules for argentinian localizacion + utilities + fixes
         'standard_depends_ce',
