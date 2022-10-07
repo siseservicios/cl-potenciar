@@ -60,14 +60,14 @@
     'git-repos': [
         'git@github.com:siseservicios/cl-potenciar.git',
 
-		# JEO
+	# JEO
         'https://github.com/jobiols/odoo-addons jeo-odoo-addons',
         'https://github.com/jobiols/odoo-jeo-ce jeo-odoo-jeo-ce',
 
         # REGABY
         'https://github.com/regaby/odoo-custom regaby-odoo-custom',
 
-		# ADHOC
+	# ADHOC
         'https://github.com/ingadhoc/odoo-argentina adhoc-odoo-argentina',
         'https://github.com/ingadhoc/odoo-argentina-ce adhoc-odoo-argentina-ce',
         'https://github.com/ingadhoc/argentina-sale adhoc-argentina-sale',
@@ -81,9 +81,10 @@
         'https://github.com/ingadhoc/product adhoc-product',
         'https://github.com/ingadhoc/stock adhoc-stock',
         'https://github.com/ingadhoc/account-invoicing adhoc-account-invoicing',
+	'https://github.com/ingadhoc/website adhoc-website',
 
-		# OCA
-		'https://github.com/OCA/account-financial-reporting oca-account-financial-reporting',
+	# OCA
+	'https://github.com/OCA/account-financial-reporting oca-account-financial-reporting',
         'https://github.com/OCA/partner-contact oca-partner-contact',
         'https://github.com/OCA/web.git',
         'https://github.com/OCA/server-tools.git',
@@ -93,7 +94,7 @@
         'https://github.com/OCA/manufacture.git',
         'https://github.com/OCA/manufacture-reporting.git',
         'https://github.com/OCA/management-system.git',
-		'https://github.com/OCA/reporting-engine oca-reporting-engine',
+	'https://github.com/OCA/reporting-engine oca-reporting-engine',
         'https://github.com/OCA/sale-workflow.git',
         'https://github.com/OCA/stock-logistics-warehouse.git',
         'https://github.com/OCA/stock-logistics-reporting.git',
