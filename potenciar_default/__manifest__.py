@@ -103,9 +103,9 @@
 
         # ODOO MATES
         'https://github.com/odoomates/odooapps odoomates-odooapps',
-	    
+
 	# CTMIL - Moldeo
-	'https://github.com/ctmil/payment_mercadopago ctmil-payment_mercadopago',
+	'https://github.com/ctmil/payment_mercadopago ctmil/payment_mercadopago',
     ],
 
     'docker-images': [
