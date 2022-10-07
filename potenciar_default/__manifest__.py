@@ -102,7 +102,10 @@
         'https://github.com/OCA/queue.git',
 
         # ODOO MATES
-        'https://github.com/odoomates/odooapps odoomates-odooapps'
+        'https://github.com/odoomates/odooapps odoomates-odooapps',
+	    
+	# CTMIL - Moldeo
+	'https://github.com/ctmil/payment_mercadopago ctmil-payment_mercadopago',
     ],
 
     'docker-images': [
