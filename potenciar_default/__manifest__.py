@@ -106,6 +106,9 @@
 
 	# CTMIL - Moldeo
 	'https://github.com/ctmil/payment_mercadopago ctmil/payment_mercadopago',
+
+        # localizacion española
+        'https://github.com/OCA/l10n-spain.git oca-l10n-spain',
     ],
 
     'docker-images': [
