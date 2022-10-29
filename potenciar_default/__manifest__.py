@@ -60,6 +60,9 @@
     'git-repos': [
         'git@github.com:siseservicios/cl-potenciar.git',
 
+        # SISE
+        'git@github.com:siseservicios/sise_addons.git'
+
 	# JEO
         'https://github.com/jobiols/odoo-addons jeo-odoo-addons',
         'https://github.com/jobiols/odoo-jeo-ce jeo-odoo-jeo-ce',
@@ -86,7 +89,7 @@
 	# OCA '
 	'https://github.com/OCA/community-data-files oca-community-data-files',
 	'https://github.com/OCA/bank-payment oca-bank-payment',
-	'https://github.com/OCA/edi oca-edi',    
+	'https://github.com/OCA/edi oca-edi',
 	'https://github.com/OCA/account-invoicing oca-account-invoicing',
 	'https://github.com/OCA/account-fiscal-rule oca-account-fiscal-rule',
 	'https://github.com/OCA/account-financial-tools oca-account-financial-tools',
