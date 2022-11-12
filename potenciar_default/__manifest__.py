@@ -112,7 +112,7 @@
         'https://github.com/OCA/stock-logistics-reporting oca-stock-logistics-reporting',
         'https://github.com/OCA/stock-logistics-workflow oca-stock-logistics-workflow',
         'https://github.com/OCA/web oca-web',
-        'https://github.com/OCA/event.git'
+        'https://github.com/OCA/event.git',
 
         # ODOO MATES
         'https://github.com/odoomates/odooapps odoomates-odooapps',
