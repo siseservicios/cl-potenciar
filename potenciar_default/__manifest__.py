@@ -60,8 +60,8 @@
     'git-repos': [
         'git@github.com:siseservicios/cl-potenciar.git',
 
-        # SISE
-        'git@github.com:siseservicios/sise_addons.git',
+        # WASF
+        'git@github.com:siseservicios/wasf_addons.git',
 
 	# JEO
         'https://github.com/jobiols/odoo-addons jeo-odoo-addons',
