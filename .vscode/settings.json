@@ -11,5 +11,6 @@
             "username": "odoo"
         }
     ],
-    "restructuredtext.confPath": ""
+    "restructuredtext.confPath": "",
+    "esbonio.sphinx.confDir": ""
 }
