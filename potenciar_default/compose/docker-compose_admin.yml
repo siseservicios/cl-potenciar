@@ -53,8 +53,6 @@ services:
       - ${PROJECT_PATH}/backup_dir:/var/odoo/backups/
     links:
       - postgres:db
-    command:
-      - --db-filter=^%d$$
     labels:
       # router rou-odoo --> Acceso a odoo en puerto 80
       - traefik.http.routers.rou-odoo.rule=${Host}
