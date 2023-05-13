@@ -54,7 +54,8 @@
 
     'config': [
 	'workers = 2',
-	'max_cron_threads = 1'
+	'max_cron_threads = 1',
+        'dbfilter = domains.yaml',
     ],
 
     'git-repos': [
