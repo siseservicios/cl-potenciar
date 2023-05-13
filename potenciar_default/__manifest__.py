@@ -58,7 +58,7 @@
     ],
 
     'git-repos': [
-        'git@github.com:siseservicios/cl-potenciar.git',
+        'git@github.com:siseservicios/cl-potenciar.git -b 13.01',
 
         # WASF
         'git@github.com:siseservicios/wasf_addons.git',
