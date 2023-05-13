@@ -54,7 +54,7 @@ services:
     links:
       - postgres:db
     command:
-      - --db-filter=^%d$$
+      - --db-filter=domains.yml
     labels:
       # router rou-odoo --> Acceso a odoo en puerto 80
       - traefik.http.routers.rou-odoo.rule=${Host}
@@ -100,4 +100,3 @@ services:
   aeroo:
     image: adhoc/aeroo-docs
     container_name: aeroo
-        
