@@ -19,7 +19,7 @@
 # -----------------------------------------------------------------------------
 {
     'name': 'Potenciar131',
-    'version': '13.1.1.0.0',
+    'version': '13.0.1.0.0',
     'license': 'Other OSI approved licence',
     'category': 'generico',
     'summary': 'Customization for Potenciar V13',
