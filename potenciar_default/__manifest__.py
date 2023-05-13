@@ -125,7 +125,7 @@
     ],
 
     'docker-images': [
-        'odoo jobiols/odoo-jeo:13.0',
+        'odoo jobiols/odoo-jeo:13.1',
         'postgres postgres:10.1-alpine',
         'nginx nginx',
     ],
