@@ -1,0 +1,9 @@
+Crear un archivo yaml en conf/ (donde esta odoo.conf) con la siguiente estructura
+
+.. code-block:: yaml
+
+    version: '1.0'
+    domains:
+        - database1: ['yxblue.potenciarsgr.com.ar', 'augusta.com.ar', 'quejodidosestostipos.com.ar']
+        - testeo13: ['testeo13.potenciarsgr.com.ar']
+        - ppooiiuu: ['ppoolol11.potenciarsgr.com.ar', 'miweb.com.ar' ]

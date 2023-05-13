@@ -10,45 +10,69 @@ Potenciar13
 .. |badge1| image:: https://img.shields.io/badge/maturity-Mature-brightgreen.png
     :target: https://odoo-community.org/page/development-status
     :alt: Mature
-.. |badge2| image:: https://img.shields.io/badge/github-jobiols%2Fcl--potenciar-lightgray.png?logo=github
-    :target: https://github.com/jobiols/cl-potenciar/tree/11.0/potenciar_default
-    :alt: jobiols/cl-potenciar
+.. |badge2| image:: https://img.shields.io/badge/github-wasf%2Fcl--potenciar-lightgray.png?logo=github
+    :target: https://github.com/wasf/cl-potenciar/tree/13.0/potenciar_default
+    :alt: wasf/cl-potenciar
 
 |badge1| |badge2| 
 
-Customizacion para Potenciar
+|
 
-**Table of contents**
+Este es el modulo de proyecto para multisitio
+
+Permite apuntar varias url a la misma base de datos
+
+|
+
+**Tabla de contenidos**
 
 .. contents::
    :local:
 
-Bug Tracker
+Instalación
 ===========
 
-Bugs are tracked on `GitHub Issues <https://github.com/jobiols/cl-potenciar/issues>`_.
-In case of trouble, please check there if your issue has already been reported.
-If you spotted it first, help us smashing it by providing a detailed and welcomed
-`feedback <https://github.com/jobiols/cl-potenciar/issues/new?body=module:%20potenciar_default%0Aversion:%2011.0%0A%0A**Steps%20to%20reproduce**%0A-%20...%0A%0A**Current%20behavior**%0A%0A**Expected%20behavior**>`_.
 
-Do not contact contributors directly about support or help with technical issues.
 
-Credits
-=======
+Configuración
+=============
 
-Authors
+** Crear un archivo yaml y ponerlo en el directorio config **
+
+Uso
+===
+
+Crear un archivo yaml en conf/ (donde esta odoo.conf) con la siguiente estructura
+
+.. code-block:: yaml
+
+    version: '1.0'
+    domains:
+        - database1: ['yxblue.potenciarsgr.com.ar', 'augusta.com.ar', 'quejodidosestostipos.com.ar']
+        - testeo13: ['testeo13.potenciarsgr.com.ar']
+        - ppooiiuu: ['ppoolol11.potenciarsgr.com.ar', 'miweb.com.ar' ]
+
+Creditos
+========
+
+Autores
 ~~~~~~~
 
 * jeo Software
 
-Contributors
+Contribuidores
+~~~~~~~~~~~~~~
+
+* Jorge Obiols <jorge.obiols@gmail.com> 
+
+Otros créditos
+~~~~~~~~~~~~~~
+
+WASF
+
+Mantenedores
 ~~~~~~~~~~~~
 
-* Jorge Obiols <jorge.obiols@gmail.com> (www.jeosoft.com.ar)
+Este módulo es parte del proyecto `wasf/cl-potenciar <https://github.com/wasf/cl-potenciar/tree/13.0/potenciar_default>`_ en GitHub.
 
-Maintainers
-~~~~~~~~~~~
-
-This module is part of the `jobiols/cl-potenciar <https://github.com/jobiols/cl-potenciar/tree/11.0/potenciar_default>`_ project on GitHub.
-
-You are welcome to contribute.
+Eres bienvenido a contribuir.
