@@ -71,8 +71,9 @@
         'https://github.com/regaby/odoo-custom regaby-odoo-custom',
 
 	# ADHOC
+	# TODO pusimos un form de odoo-argentina-ee porque no estaba corregido el cambio de WS del padron 
         'https://github.com/ingadhoc/odoo-argentina adhoc-odoo-argentina',
-        'https://github.com/ingadhoc/odoo-argentina-ce adhoc-odoo-argentina-ce',
+        'https://github.com/siseservicios/odoo-argentina-ce adhoc-odoo-argentina-ce',
         'https://github.com/ingadhoc/argentina-sale adhoc-argentina-sale',
         'https://github.com/ingadhoc/account-financial-tools adhoc-account-financial-tools',
         'https://github.com/ingadhoc/account-payment adhoc-account-payment',
