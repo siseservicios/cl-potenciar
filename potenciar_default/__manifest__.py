@@ -68,7 +68,8 @@
         'https://github.com/jobiols/odoo-jeo-ce jeo-odoo-jeo-ce',
 
         # REGABY
-        'https://github.com/regaby/odoo-custom regaby-odoo-custom',
+	# TODO arreglaoms ws de afip consulta padron
+        'https://github.com/siseservicios/odoo-custom regaby-odoo-custom',
 
 	# ADHOC
 	# TODO pusimos un form de odoo-argentina-ee porque no estaba corregido el cambio de WS del padron 
