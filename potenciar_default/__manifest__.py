@@ -18,7 +18,7 @@
 #
 # -----------------------------------------------------------------------------
 {
-    'name': 'Potenciar13',
+    'name': 'potenciar13',
     'version': '13.0.1.0.0',
     'license': 'Other OSI approved licence',
     'category': 'generico',
